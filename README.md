@@ -3,6 +3,19 @@
 
 A real-time voice chatbot that captures user speech and responds with generated audio replies using a Large Language Model (LLM).
 
+##  Table of Contents
+
+-   [Core Functionality](#-core-functionality)
+-   [Project Structure](#-project-structure)
+-   [Tech Stack & Requirements](#-tech-stack--requirements)
+-   [Setup and Installation Guide](#️-setup-and-installation-guide)
+    -   [Step 1: System Prerequisites](#step-1-system-prerequisites)
+    -   [Step 2: Project Files](#step-2-project-files)
+    -   [Step 3: Install Python Libraries](#step-3-install-python-libraries)
+    -   [Step 4: (Optional) Test Whisper Independently](#step-4-optional-test-whisper-independently)
+    -   [Step 5: Configure API Key](#step-5-configure-api-key)
+-   [Running the Full Application](#️-running-the-full-application)
+  
 ### Core Functionality
 1.   **Record:** Captures audio from the user's microphone.
 2.   **Transcribe:** Converts the audio to text using **Whisper**.
@@ -10,6 +23,25 @@ A real-time voice chatbot that captures user speech and responds with generated 
 4.   **Synthesize:** Converts the text response back to audio using **gTTS**.
 5.   **Play:** Automatically plays the audio response to the user.
 
+---
+
+##  Project Structure
+
+The project directory is organized as follows to ensure Flask operates correctly.
+
+```
+chatbot_app/
+│
+├── app.py              # Main Flask server, handles all backend logic
+│
+├── templates/
+│   └── index.html      # The HTML structure for the user interface
+│
+└── static/
+    ├── style.css       # All CSS for styling the UI
+    ├── script.js       # Frontend JavaScript for audio and API handling
+    └── robot.png       # The chatbot's avatar icon
+```
 ---
 
 ##  Tech Stack & Requirements
@@ -91,21 +123,4 @@ Once all the setup and configuration steps are complete, you are ready to launch
 
 ---
 
-##  Project Structure
-
-The project directory is organized as follows to ensure Flask operates correctly.
-
-```
-chatbot_app/
-│
-├── app.py              # Main Flask server, handles all backend logic
-│
-├── templates/
-│   └── index.html      # The HTML structure for the user interface
-│
-└── static/
-    ├── style.css       # All CSS for styling the UI
-    ├── script.js       # Frontend JavaScript for audio and API handling
-    └── robot.png       # The chatbot's avatar icon
-```
 
