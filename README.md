@@ -2,7 +2,7 @@
 
 This project is a real-time voice chatbot that allows users to speak and receive smart audio responses directly in the browser.
 
-The system performs the following steps:
+It works by:
 1. Recording the user's voice.
 2. Transcribing the audio to text using Whisper.
 3. Generating a response using Cohere.
