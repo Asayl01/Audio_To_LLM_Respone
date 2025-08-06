@@ -43,11 +43,9 @@ cd your-project-directory
    Once logged in, navigate to your dashboard and generate an API key.
 2. Open the project folder and locate the `app.py` file.
 3. In your code editor, find the following line:
+   
    ```python
-   COHERE_API_KEY = "YOUR_REAL_API_KEY_HERE"
-
-⚠️ Warning: Do not share or publish your API key publicly (e.g. in GitHub).
-Treat it like a password—exposing it may allow others to use your account and exhaust your quot
+   COHERE_API_KEY = "YOUR_REAL_API_KEY_HERE"  # ⚠️ Do NOT share this key publicly!
 ```
 
 
