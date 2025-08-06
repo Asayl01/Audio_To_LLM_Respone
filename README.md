@@ -46,7 +46,9 @@ cd your-project-directory
    ```python
    COHERE_API_KEY = "YOUR_REAL_API_KEY_HERE"
 
-
+⚠️ Warning: Do not share or publish your API key publicly (e.g. in GitHub).
+Treat it like a password—exposing it may allow others to use your account and exhaust your quot
+```
 
 
 
