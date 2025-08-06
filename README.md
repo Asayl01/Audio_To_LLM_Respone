@@ -50,19 +50,3 @@ cd your-project-directory
 
 
 
-
-
-
-```
-chatbot_app/
-│
-├── app.py              # Main Flask server, handles all backend logic
-│
-├── templates/
-│   └── index.html      # The HTML structure for the user interface
-│
-└── static/
-    ├── style.css       # All CSS for styling the UI
-    ├── script.js       # Frontend JavaScript for audio and API handling
-    └── robot.png       # The chatbot's avatar icon
-```
