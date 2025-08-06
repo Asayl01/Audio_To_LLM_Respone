@@ -1,8 +1,5 @@
 
-
-
 # Audio to LLM Response
-
 
 A real-time voice chatbot that captures user speech and responds with generated audio replies using a Large Language Model (LLM).
 
