@@ -15,7 +15,7 @@ A real-time voice chatbot that captures user speech and responds with generated 
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+##  Tech Stack & Requirements
 
 | Category      | Technology                                                                                          |
 | :------------ | :-------------------------------------------------------------------------------------------------- |
@@ -94,7 +94,7 @@ Once all the setup and configuration steps are complete, you are ready to launch
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 The project directory is organized as follows to ensure Flask operates correctly.
 
