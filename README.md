@@ -44,9 +44,25 @@ cd your-project-directory
 2. Open the project folder and locate the `app.py` file.
 3. In your code editor, find the following line:
    
-   ```python
+   ```bash
+
    COHERE_API_KEY = "YOUR_REAL_API_KEY_HERE"  # ⚠️ Do NOT share this key publicly!
+    ```
+   
+##  Project Structure
+The project directory is organized as follows to ensure Flask operates correctly.
+
 ```
-
-
+chatbot_app/
+│
+├── app.py              # Main Flask server, handles all backend logic
+│
+├── templates/
+│   └── index.html      # The HTML structure for the user interface
+│
+└── static/
+    ├── style.css       # All CSS for styling the UI
+    ├── script.js       # Frontend JavaScript for audio and API handling
+    └── robot.png       # The chatbot's avatar icon
+```
 
