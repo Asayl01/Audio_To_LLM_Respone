@@ -1,6 +1,6 @@
 # Audio_To_LLM_Response
 
-This project is a real-time voice chatbot that allows users to speak and receive smart audio responses directly in the browser.
+This project is a real-time voice chatbot that captures user speech and responds with generated audio replies using an LLM.
 
 It works by:
 1. Recording the user's voice.
