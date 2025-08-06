@@ -35,6 +35,17 @@ git clone https://your-repository-url.git
 cd your-project-directory
 ```
 
+> Alternatively, you can download the ZIP file and extract it manually.
+
+### 3. API Key Configuration
+
+1. Go to [https://cohere.com](https://cohere.com) and sign up for a free account.  
+   Once logged in, navigate to your dashboard and generate an API key.
+2. Open the project folder and locate the `app.py` file.
+3. In your code editor, find the following line:
+   ```python
+   COHERE_API_KEY = "YOUR_REAL_API_KEY_HERE"
+
 
 
 
