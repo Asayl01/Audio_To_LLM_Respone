@@ -68,7 +68,7 @@ Before installing the project libraries, ensure your system has the following:
 -   **Python 3.8 or newer**: Verify your installation by running `python --version`.
 -   **FFmpeg**: This is a critical dependency for audio processing.
     -   Download it from the [**official FFmpeg website**](https://ffmpeg.org/download.html ).
-    -   Install it and ensure the executable's location is added to your system's `PATH` variable.
+    -   Install it and ensure its executable's location is added to your system's `PATH` variable.
 
 ### Step 2: Project Files
 
@@ -91,7 +91,43 @@ Open your terminal or Anaconda Prompt inside the project directory and run the f
 pip install Flask Flask-CORS openai-whisper cohere gTTS numpy scipy
 ```
 
-### Step 4: Configure API Key
+### Step 4: (Optional ) Test Whisper Independently
+
+Before running the full web application, you can perform a quick test to ensure the core speech-to-text functionality is working.
+
+1.  Create a temporary Python file named `test_whisper.py` in your project folder and paste the following code into it:
+    ```python
+    import whisper
+    import sounddevice as sd
+    from scipy.io.wavfile import write
+    import numpy as np
+
+    FS = 16000
+    SECONDS = 5
+    FILENAME = "test_output.wav"
+
+    print("Recording for 5 seconds...")
+    myrecording = sd.rec(int(SECONDS * FS), samplerate=FS, channels=1, dtype='int16')
+    sd.wait()
+    write(FILENAME, FS, myrecording)
+    print("Recording finished.")
+
+    model = whisper.load_model("base")
+    result = model.transcribe(FILENAME, language="ar")
+    print("Transcription Result:")
+    print(result["text"])
+    ```
+2.  Run the test script from your terminal:
+    ```bash
+    python test_whisper.py
+    ```
+3.  The script will record 5 seconds of audio from your microphone and then print the transcribed text.
+
+> **Note on Arabic Text:** It is normal for Arabic text to appear reversed or disconnected in standard Windows terminals (like `cmd` or `Anaconda Prompt`). This is a display issue with the terminal itself and **does not affect the functionality of the program**. The text is processed correctly in the backend.
+>
+> `مرحبا` might look like `ا ب ح ر م` in the terminal, but it's handled correctly by the application.
+
+### Step 5: Configure API Key
 
 The chatbot relies on the Cohere API to generate responses.
 
@@ -108,7 +144,7 @@ The chatbot relies on the Cohere API to generate responses.
 
 ---
 
-##  Running the Application
+##  Running the Full Application
 
 Once all the setup and configuration steps are complete, you are ready to launch the chatbot.
 
@@ -121,6 +157,5 @@ Once all the setup and configuration steps are complete, you are ready to launch
 3.  **Grant Permissions**: The first time you click the microphone icon, your browser will prompt you for microphone access. **You must click "Allow"** for the application to work.
 4.  **Start Talking**: Click the microphone icon and enjoy your conversation with the AI!
 
----
 
 
