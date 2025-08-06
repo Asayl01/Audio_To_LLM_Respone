@@ -1,6 +1,5 @@
 
-# Audio to LLM Response
-This project is a real-time voice chatbot that captures user speech and responds with generated audio replies using an LLM.
+
 
 # Audio to LLM Response
 
