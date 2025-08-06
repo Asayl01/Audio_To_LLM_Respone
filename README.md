@@ -158,4 +158,6 @@ Once all the setup and configuration steps are complete, you are ready to launch
 4.  **Start Talking**: Click the microphone icon and enjoy your conversation with the AI!
 
 # Demo
-
+- [app_p1.mp4](https://drive.google.com/file/d/XXX/view)
+- [app_p2.mp4](https://drive.google.com/file/d/YYY/view)
+- [app_p3.mp4](https://drive.google.com/file/d/ZZZ/view)
