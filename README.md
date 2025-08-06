@@ -159,6 +159,7 @@ Once all the setup and configuration steps are complete, you are ready to launch
 
 # Demo
 The GIF below shows a quick visual preview of the voice chatbot in action.
+
 ![chat](chat.gif)
 
 The following videos include a simple explanation of how the chatbot works and how to run it from the terminal:
