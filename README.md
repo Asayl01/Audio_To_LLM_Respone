@@ -2,20 +2,17 @@
 # Audio to LLM Response
 This project is a real-time voice chatbot that captures user speech and responds with generated audio replies using an LLM.
 
-# 🤖 Audio to LLM Response
+# Audio to LLM Response
 
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg )](https://www.python.org/downloads/ )
-[![Framework](https://img.shields.io/badge/Framework-Flask-black.svg )](https://flask.palletsprojects.com/ )
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg )](https://opensource.org/licenses/MIT )
 
 A real-time voice chatbot that captures user speech and responds with generated audio replies using a Large Language Model (LLM).
 
 ### Core Functionality
-1.  🎙️ **Record:** Captures audio from the user's microphone.
-2.  ✍️ **Transcribe:** Converts the audio to text using **Whisper**.
-3.  🧠 **Generate:** Generates an intelligent response using **Cohere**.
-4.  🔊 **Synthesize:** Converts the text response back to audio using **gTTS**.
-5.  ▶️ **Play:** Automatically plays the audio response to the user.
+1.   **Record:** Captures audio from the user's microphone.
+2.   **Transcribe:** Converts the audio to text using **Whisper**.
+3.   **Generate:** Generates an intelligent response using **Cohere**.
+4.   **Synthesize:** Converts the text response back to audio using **gTTS**.
+5.   **Play:** Automatically plays the audio response to the user.
 
 ---
 
