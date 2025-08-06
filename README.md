@@ -1,10 +1,34 @@
-#  Audio To LLM Response: A Real-Time Voice Chatbot
 
-A real-time, voice-powered chatbot that captures user speech, processes it through a Large Language Model (LLM), and responds with a generated audio reply.
+# Audio to LLM Response
+This project is a real-time voice chatbot that captures user speech and responds with generated audio replies using an LLM.
+It works by:
+1. Recording the user's voice.
+2. Transcribing the audio to text using Whisper.
+3. Generating a response using Cohere.
+4. Converting the response to audio using gTTS.
+5. Playing the audio response automatically.
 
----
+## Tools & Requirements
+- Frontend: HTML, CSS, JavaScript (vanilla)
+- Backend: Python 3.8+, Flask, Flask-CORS
+- Libraries: openai-whisper, cohere, gTTS, FFmpeg
+- Environment: Developed and tested using Anaconda
+- Requires a working microphone and internet connection
 
+## How to Run
+Follow these steps to get the project running on your local machine.
 
+### 1. Prerequisites
+- Python 3.8 or newer
+- FFmpeg installed and added to system PATH  
+  → Download from https://ffmpeg.org/download.html
+
+### 2. Clone or Download the Project
+```bash
+# If you use Git
+git clone https://your-repository-url.git
+cd your-project-directory
+```
 
 ##  Tech Stack
 This project integrates a modern set of tools for both frontend and backend development.
