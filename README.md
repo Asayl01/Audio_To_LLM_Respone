@@ -1,7 +1,8 @@
 # Audio_To_LLM_Respone
+
 This project is a real-time voice chatbot that allows users to speak and receive smart audio responses directly in the browser.
 
-It works by:
+The system performs the following steps:
 1. Recording the user's voice.
 2. Transcribing the audio to text using Whisper.
 3. Generating a response using Cohere.
@@ -9,18 +10,7 @@ It works by:
 5. Playing the response automatically.
 
 ## Tools & Requirements
-
-### Frontend
-- HTML, CSS, JavaScript (vanilla)
-
-### Backend
-- Python 3.8+
-- Flask
-- Flask-CORS
-
-### Libraries
-- openai-whisper
-- cohere
-- gTTS
-- FFmpeg
-
+- Frontend: HTML, CSS, JavaScript (vanilla)
+- Backend: Python 3.8+, Flask, Flask-CORS
+- Libraries: openai-whisper, cohere, gTTS, FFmpeg
+- Environment: Developed and tested using Anaconda
