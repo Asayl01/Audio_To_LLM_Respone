@@ -162,7 +162,4 @@ The GIF below shows a quick visual preview of the voice chatbot in action.
 
 ![chat](chat.gif)
 
-The following videos include a simple explanation of how the chatbot works and how to run it from the terminal:
-- [app_p1.mp4](https://drive.google.com/file/d/1F2YDOvILWnljDKT8UxbPJzMQERK9ubLq/view?usp=sharing)
-- [app_p2.mp4](https://drive.google.com/file/d/1fbkfrmnAY05OgITJ6LqegSfauZ5MDhLD/view?usp=drive_link)
-- [app_p3.mp4](https://drive.google.com/file/d/157acUuV6CHriRnQqx5aBSl-sDLYtPZvA/view?usp=drive_link)
+
